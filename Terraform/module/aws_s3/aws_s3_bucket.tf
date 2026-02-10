@@ -19,3 +19,4 @@ resource "aws_s3_bucket_public_access_block" "this" {
   ignore_public_acls      = var.public
   restrict_public_buckets = var.public
 }
+
